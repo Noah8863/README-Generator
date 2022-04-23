@@ -1,11 +1,13 @@
 
 
-  # 1 
+  # README Generator 
 
 
-  undefined 
-  This application is protected under 
-   
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+  This application is protected under Apache license
+
+  https://opensource.org/licenses/Apache-2.0 
 
 
   ## Table of Contents
@@ -26,32 +28,32 @@
 
   ## Quick Description about the project 
 
-  	 2 
+  	 This is a program that will generator a professional readme file that you can use on all of your projects! 
 
   ## How to install the project 
 
-  	 3 
+  	 Follow the link and you're good to go! 
 
   ## Main motive for the project 
 
-  	 4 
+  	 To learn more about how to create,read and write files with node fs 
 
   ## Main problems faced when working on the project 
  
-  	 f 
+  	 The Tables of Contents was a real struggle for some reason. Same with getting the liscenses to work. 
 
   ## Main take aways from the project 
 
-  	 s 
+  	 How to manipulate files using node fs 
 
   ## How This project stands out 
 
-  	 s 
+  	 I really tried to add more questions and make the README file look pretty when it is generated.  
 
   ## Contact Info 
 
-  	 GitHub User Name: sd 
+  	 GitHub User Name: Noah8863 
 
-  	 Email: d 
+  	 Email: stacknoah99@gmail.com 
 
-  	 LinkedIn: 
+  	 LinkedIn: Noah Hoffman

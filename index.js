@@ -6,7 +6,7 @@ const generateMarkdown = require('./generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Which license would you like to choose?',
         choices: [

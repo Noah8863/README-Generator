@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
       return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
     } else if (license === 'BSD-3 Clause') {
       return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
-    } else if (license === 'BSD-2 Clause') {
+    } else {
       return "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)"
     }
 }
@@ -39,9 +39,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-    return (`This application is protected under ${license}`)
+    return (`This application is protected under ` + (license) + ` license`)
   }
-  return '';
+  return 'N/A';
 }
 
 // TODO: Create a function to generate markdown for README
@@ -50,8 +50,8 @@ function generateMarkdown(data) {
 
   # ${data.title} \n
 
-  ${renderLicenseBadge(data.license)} 
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseBadge(data.license)}\n
+  ${renderLicenseSection(data.license)}\n
   ${renderLicenseLink(data.license)} \n
 
   ## Table of Contents
