@@ -55,13 +55,13 @@ function generateMarkdown(data) {
   ${renderLicenseLink(data.license)} \n
 
   ## Table of Contents
-  [Description](#description)\n
-  [How to Install](#install)\n
-  [Main Objective](#purposeOfProject)\n
-  [Problems Faced](#problems)\n
-  [Things Learned](#learning)\n
-  [How This Project Stands Out](#standout)\n
-  [Contact](#Contact Info)\n
+  [Description](#quick-description-about-the-project)\n
+  [How to Install](#how-to-install-the-project)\n
+  [Main Objective](#main-motive-for-the-project)\n
+  [Problems Faced](#main-problems-faced-when-working-on-the-project)\n
+  [Things Learned](#main-take-aways-from-the-project)\n
+  [How This Project Stands Out](#how-this-project-stands-out)\n
+  [Contact](#contact-info)\n
 
   ## Quick Description about the project \n
   \t ${data.description} \n

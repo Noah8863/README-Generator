@@ -1,6 +1,6 @@
 
 
-  # dsa 
+  # 1 
 
 
   undefined 
@@ -9,49 +9,49 @@
 
 
   ## Table of Contents
-  [Description](#description)
+  [Description](#quick-description-about-the-project)
 
-  [How to Install](#install)
+  [How to Install](#how-to-install-the-project)
 
-  [Main Objective](#purposeOfProject)
+  [Main Objective](#main-motive-for-the-project)
 
-  [Problems Faced](#problems)
+  [Problems Faced](#main-problems-faced-when-working-on-the-project)
 
-  [Things Learned](#learning)
+  [Things Learned](#main-take-aways-from-the-project)
 
-  [How This Project Stands Out](#standout)
+  [How This Project Stands Out](#how-this-project-stands-out)
 
-  [Contact](#Contact Info)
+  [Contact](#contact-info)
 
 
   ## Quick Description about the project 
 
-  	 dsa 
+  	 2 
 
   ## How to install the project 
 
-  	 d 
+  	 3 
 
   ## Main motive for the project 
 
-  	 sad 
+  	 4 
 
   ## Main problems faced when working on the project 
  
-  	 as 
+  	 f 
 
   ## Main take aways from the project 
 
-  	 d 
+  	 s 
 
   ## How This project stands out 
 
-  	 d 
+  	 s 
 
   ## Contact Info 
 
-  	 GitHub User Name:  
+  	 GitHub User Name: sd 
 
-  	 Email: s 
+  	 Email: d 
 
-  	 LinkedIn: d
+  	 LinkedIn: 
