@@ -61,7 +61,7 @@ function generateMarkdown(data) {
   [Problems Faced](#problems)\n
   [Things Learned](#learning)\n
   [How This Project Stands Out](#standout)\n
-  [Contact](#userName)\n
+  [Contact](#Contact Info)\n
 
   ## Quick Description about the project \n
   \t ${data.description} \n

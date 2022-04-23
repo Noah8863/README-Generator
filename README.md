@@ -21,7 +21,7 @@
 
   [How This Project Stands Out](#standout)
 
-  [Contact](#userName)
+  [Contact](#Contact Info)
 
 
   ## Quick Description about the project 
@@ -52,6 +52,6 @@
 
   	 GitHub User Name: Noah8863 
 
-  	 Email: email@email.com 
+  	 Email: test@test.com 
 
-  	 LinkedIn: Noah Hoffman
+  	 LinkedIn: testing
