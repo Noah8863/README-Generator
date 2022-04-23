@@ -47,12 +47,23 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
+
+  # ${data.title} \n
+
   ${renderLicenseBadge(data.license)} 
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)} \n
 
-  # ${data.title} \n
-  ## Quick Discription about the project \n
+  ## Table of Contents
+  [Description](#description)\n
+  [How to Install](#install)\n
+  [Main Objective](#purposeOfProject)\n
+  [Problems Faced](#problems)\n
+  [Things Learned](#learning)\n
+  [How This Project Stands Out](#standout)\n
+  [Contact](#userName)\n
+
+  ## Quick Description about the project \n
   \t ${data.description} \n
   ## How to install the project \n
   \t ${data.install} \n
@@ -62,12 +73,12 @@ function generateMarkdown(data) {
   \t ${data.problems} \n
   ## Main take aways from the project \n
   \t ${data.learning} \n
-  ## How this project stands out \n
+  ## How This project stands out \n
   \t ${data.standout} \n
-  ## GitHub User Name \n
-  \t ${data.userName} \n
-  ## Email you can reach me at \n
-  \t ${data.userEmail} \n
+  ## Contact Info \n
+  \t GitHub User Name: ${data.userName} \n
+  \t Email: ${data.userEmail} \n
+  \t LinkedIn: ${data.linkedin}
 `;
 }
 

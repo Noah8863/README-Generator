@@ -1,40 +1,57 @@
 
+
+  # 1 
+
+
   undefined 
   This application is protected under 
    
 
 
-  # ds 
+  ## Table of Contents
+  [Description](#description)
 
-  ## Quick Discription about the project 
+  [How to Install](#install)
 
-  	 ds 
+  [Main Objective](#purposeOfProject)
+
+  [Problems Faced](#problems)
+
+  [Things Learned](#learning)
+
+  [How This Project Stands Out](#standout)
+
+  [Contact](#userName)
+
+
+  ## Quick Description about the project 
+
+  	 2 
 
   ## How to install the project 
 
-  	 d 
+  	 3 
 
   ## Main motive for the project 
 
-  	 s 
+  	 4 
 
   ## Main problems faced when working on the project 
  
-  	 ds 
+  	 5 
 
   ## Main take aways from the project 
 
-  	 d 
+  	 6 
 
-  ## How this project stands out 
+  ## How This project stands out 
 
-  	 s 
+  	 7 
 
-  ## GitHub User Name 
+  ## Contact Info 
 
-  	 d 
+  	 GitHub User Name: Noah8863 
 
-  ## Email you can reach me at 
+  	 Email: email@email.com 
 
-  	 sd 
-
+  	 LinkedIn: Noah Hoffman

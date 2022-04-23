@@ -48,6 +48,10 @@ const questions = [
     {
         name: 'userEmail',
         message: 'Please enter in your email address',
+    },
+    {
+        name: 'linkedin',
+        message: 'Please enter your linkedin user name'
     }
 ];
 
