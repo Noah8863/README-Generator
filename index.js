@@ -69,7 +69,6 @@ function init() {
         .then((responses) => {
             writeToFile('README.md', generateMarkdown(responses))
         })
-
 }
 
 // Function call to initialize app
