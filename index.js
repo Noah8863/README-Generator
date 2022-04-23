@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -13,7 +13,6 @@ const questions = [
             'Apache', 'Boost Software', 'BSD-3 Clause', 'BSD-2 Clause'
             ]
         },
-    
     {
         name: 'title',
         message: 'What do you want this project to be called?',
@@ -51,6 +50,7 @@ const questions = [
         message: 'Please enter in your email address',
     }
 ];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

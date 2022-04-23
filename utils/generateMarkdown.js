@@ -19,7 +19,26 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  switch(license){
+      case "Apache":
+          link = `https://opensource.org/licenses/Apache-2.0`;
+          break;
+      case "Boost Software":
+          link = `https://opensource.org/licenses/BSL-1.0`;
+          break;
+      case "BSD-3 Clause":
+          link = `https://opensource.org/licenses/BSD-3-Clause`;
+          break;
+      case "BSD-2 Clause":
+          link = `https://opensource.org/licenses/BSD-2-Clause`;
+          break;
+      default: 
+          link = ''; 
+          break;
+  }
+  return link
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -27,8 +46,24 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-
+  return `
+  # ${data.title} \n
+  ## Quick Discription about the project \n
+  \t ${data.description} \n
+  ## How to install the project \n
+  \t ${data.install} \n
+  ## Main motive for the project \n
+  \t ${data.purposeOfProject} \n
+  ## Main problems faced when working on the project \n 
+  \t ${data.problems} \n
+  ## Main take aways from the project \n
+  \t ${data.learning} \n
+  ## How this project stands out \n
+  \t ${data.standout} \n
+  ## GitHub User Name \n
+  \t ${data.userName} \n
+  ## Email you can reach me at \n
+  \t ${data.userEmail} \n
 `;
 }
 
