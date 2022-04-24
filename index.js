@@ -30,6 +30,10 @@ const questions = [
         message: 'Describe how to use this project: '
     },
     {
+        name: 'contribution',
+        message: 'How do you want people to contribute to this project?',
+    },
+    {
         name: 'problems',
         message: 'What problems did you come across with this project?',
     },

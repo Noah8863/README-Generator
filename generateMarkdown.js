@@ -59,6 +59,7 @@ function generateMarkdown(data) {
   [Description](#quick-description-about-the-project)\n
   [How to Install](#how-to-install-the-project)\n
   [How to Use This Project](#how-to-use-this-project)\n
+  [Contributing](#contributing-to-this-project)\n
   [Problems Faced](#main-problems-faced-when-working-on-the-project)\n
   [Things Learned](#main-take-aways-from-the-project)\n
   [Tests](#tests)\n
@@ -71,6 +72,8 @@ function generateMarkdown(data) {
   ${data.install} \n
   ## How to use this project \n
   ${data.usage} \n
+  ## Contributing to this project
+  ${data.contribution} \n
   ## Main problems faced when working on the project \n 
   ${data.problems} \n
   ## Main take aways from the project \n
