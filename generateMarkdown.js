@@ -44,6 +44,7 @@ function renderLicenseSection(license) {
   return 'N/A';
 }
 
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -57,28 +58,30 @@ function generateMarkdown(data) {
   ## Table of Contents
   [Description](#quick-description-about-the-project)\n
   [How to Install](#how-to-install-the-project)\n
-  [Main Objective](#main-motive-for-the-project)\n
+  [How to Use This Project](#how-to-use-this-project)\n
   [Problems Faced](#main-problems-faced-when-working-on-the-project)\n
   [Things Learned](#main-take-aways-from-the-project)\n
-  [How This Project Stands Out](#how-this-project-stands-out)\n
-  [Contact](#contact-info)\n
+  [Tests](#tests)\n
+  [Contact](#questions)\n
 
   ## Quick Description about the project \n
   \t ${data.description} \n
   ## How to install the project \n
+  To use this project, please 'git clone' the following repository link: \n
   \t ${data.install} \n
-  ## Main motive for the project \n
-  \t ${data.purposeOfProject} \n
+  ## How to use this project \n
+  \t ${data.usage} \n
   ## Main problems faced when working on the project \n 
   \t ${data.problems} \n
   ## Main take aways from the project \n
   \t ${data.learning} \n
-  ## How This project stands out \n
-  \t ${data.standout} \n
-  ## Contact Info \n
-  \t GitHub User Name: ${data.userName} \n
-  \t Email: ${data.userEmail} \n
-  \t LinkedIn: ${data.linkedin}
+  ## Tests \n
+  \t ${data.tests} \n
+  ## Questions \n
+  If you have any questions, please contact me at: \n 
+  Github Profile: [${data.userName}](https://github.com/${data.userName})  \n
+  Email: ${data.userEmail} \n
+  LinkedIn: ${data.linkedin}
 `;
 }
 

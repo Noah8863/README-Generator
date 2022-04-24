@@ -19,15 +19,15 @@ const questions = [
     },
     {
         name: 'description',
-        message: 'Give a brief description of this project',
+        message: 'Give a brief description of this project: ',
     },
     {
         name: 'install',
-        message: 'How do you install this project?',
+        message: 'Please provide a link that can be cloned for a repository pull: ',
     },
     {
-        name: 'purposeOfProject',
-        message: 'What was the motive to building this project?'
+        name: 'usage',
+        message: 'Describe how to use this project: '
     },
     {
         name: 'problems',
@@ -38,20 +38,20 @@ const questions = [
         message: 'What did you learn from this project?',
     },
     {
-        name: 'standout',
-        message: 'How does this project stand out from others?',
+        name: 'tests',
+        message: 'Provide steps to test this project: ',
     },
     {
         name: 'userName',
-        message: 'Please enter in your user name for GitHub',
+        message: 'Please enter in your user name for GitHub: ',
     },
     {
         name: 'userEmail',
-        message: 'Please enter in your email address',
+        message: 'Please enter in your email address: ',
     },
     {
         name: 'linkedin',
-        message: 'Please enter your linkedin user name'
+        message: 'Please enter your linkedin user name: '
     }
 ];
 
@@ -61,8 +61,10 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
         console.log(err);
+        console.log('Had an error writing the README file')
     } else {
-        console.log('This works!')
+        console.log('.....')
+        console.log('README File Has Been Created!')
     }
     });
 }

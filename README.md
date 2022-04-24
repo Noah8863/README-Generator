@@ -15,45 +15,49 @@
 
   [How to Install](#how-to-install-the-project)
 
-  [Main Objective](#main-motive-for-the-project)
+  [How to Use This Project](#how-to-use-this-project)
 
   [Problems Faced](#main-problems-faced-when-working-on-the-project)
 
   [Things Learned](#main-take-aways-from-the-project)
 
-  [How This Project Stands Out](#how-this-project-stands-out)
+  [Tests](#tests)
 
-  [Contact](#contact-info)
+  [Contact](#questions)
 
 
   ## Quick Description about the project 
 
-  	 This is a program that will generator a professional readme file that you can use on all of your projects! 
+  	 This is a program that will take in a series of questions to automatically create a README file that you can use on all your projects! This program uses node.js and a few different packages to make it run. After completeting all of the questions, you can preview the README file that was made, see if you like it and then save it to your computer so it's one less thing you have to worry about! 
 
   ## How to install the project 
 
-  	 Follow the link and you're good to go! 
+  To use this project, please 'git clone' the following repository link: 
 
-  ## Main motive for the project 
+  	 https://github.com/Noah8863/README-Generator.git 
 
-  	 To learn more about how to create,read and write files with node fs 
+  ## How to use this project 
+
+  	 Type in "npm install inquirer" into your terminal and then "node index" to start the program. Follow the questions in the terminal. 
 
   ## Main problems faced when working on the project 
  
-  	 The Tables of Contents was a real struggle for some reason. Same with getting the liscenses to work. 
+  	 Some big problems I first came across was how to use Node.js. Since this was a new topic for me, figuring out all the syntax and tricks was a bit difficult. I also had a hard time figuring out how to link the different licenses and badged for the readme file. 
 
   ## Main take aways from the project 
 
-  	 How to manipulate files using node fs 
+  	 I learned how to create, write and read files using the FS feature. I also learned how the switch statement works in Javascript.  
 
-  ## How This project stands out 
+  ## Tests 
 
-  	 I really tried to add more questions and make the README file look pretty when it is generated.  
+  	 There are no tests that need to be done when running this program.  
 
-  ## Contact Info 
+  ## Questions 
 
-  	 GitHub User Name: Noah8863 
+  If you have any questions, please contact me at: 
+ 
+  Github Profile: [Noah8863](https://github.com/Noah8863)  
 
-  	 Email: stacknoah99@gmail.com 
+  Email: stacknoah99@gmail.com 
 
-  	 LinkedIn: Noah Hoffman
+  LinkedIn: Noah Hoffman
