@@ -62,21 +62,21 @@ function generateMarkdown(data) {
   [Problems Faced](#main-problems-faced-when-working-on-the-project)\n
   [Things Learned](#main-take-aways-from-the-project)\n
   [Tests](#tests)\n
-  [Contact](#questions)\n
+  [Questions](#questions)\n
 
   ## Quick Description about the project \n
-  \t ${data.description} \n
+  ${data.description} \n
   ## How to install the project \n
   To use this project, please 'git clone' the following repository link: \n
-  \t ${data.install} \n
+  ${data.install} \n
   ## How to use this project \n
-  \t ${data.usage} \n
+  ${data.usage} \n
   ## Main problems faced when working on the project \n 
-  \t ${data.problems} \n
+  ${data.problems} \n
   ## Main take aways from the project \n
-  \t ${data.learning} \n
+  ${data.learning} \n
   ## Tests \n
-  \t ${data.tests} \n
+  ${data.tests} \n
   ## Questions \n
   If you have any questions, please contact me at: \n 
   Github Profile: [${data.userName}](https://github.com/${data.userName})  \n
