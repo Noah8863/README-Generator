@@ -41,6 +41,8 @@
   ## How to use this project 
 
   ​Type in "npm install inquirer" into your terminal and then "node index" to start the program. Follow the questions in the terminal and then save the newly made file to your computer. 
+  
+  [How to Video](https://drive.google.com/file/d/1YVVRmgkb6rsM4ZMtRwy9U-CNd1bTBkUU/view)
 
   ## Contributing to this project
   Submit a pull request and the feature will be merged upon review.  
